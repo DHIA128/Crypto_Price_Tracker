@@ -1,46 +1,55 @@
-# Getting Started with Create React App
+# Crypto Price Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Crypto Price Tracker is a web application that allows users to track cryptocurrency prices and select their favorite cryptocurrencies for monitoring.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- View real-time cryptocurrency prices.
+- Select and monitor favorite cryptocurrencies.
+- Search for cryptocurrencies by name or symbol.
+- Persistent selection using local storage.
+- Automatic data caching for improved performance.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- React
+- React Bootstrap
+- JavaScript/TypeScript
+- API for cryptocurrency data (Replace with the actual API you use)
+- Local storage for data persistence
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Installation
 
-### `npm test`
+1. Clone the repository to your local machine.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+2. Navigate to the project directory.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Install dependencies.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+4. Start the development server.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5. Open your web browser and access the application at [http://localhost:3000](http://localhost:3000).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Usage
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- On the main page, you can see a list of cryptocurrencies and their current prices.
+- Use the search bar to find specific cryptocurrencies by name or symbol.
+- To select a cryptocurrency for monitoring, check the checkbox next to its name.
+- Your selected cryptocurrencies will be saved and remain selected even after closing the browser.
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Acknowledgments
+
+- Thanks to the [API Provider] for providing cryptocurrency data.
+- Special thanks to [Author Name] for contributing to the project.
+
+## Contributing
+
+Contributions are welcome! Please follow our [contributing guidelines](CONTRIBUTING.md) for more details.
